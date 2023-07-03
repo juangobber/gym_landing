@@ -32,3 +32,37 @@ footer{
     
 }
 
+.bg-claro{
+    background: rgb(167,167,167);
+background: linear-gradient(90deg, rgba(167,167,167,1) 0%, rgba(210,210,210,1) 66%, rgba(185,181,181,1) 97%);
+}
+
+.text-shadow {
+    text-shadow: 1px 3px 9px rgba(0,0,0,0.27);
+}
+
+@media (max-width: 576px) {
+    
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        max-width:max-content
+    }
+    .quienes-somos-text{
+        text-align: center;
+        font-size: medium !important
+    }
+    .quienes-somos-content {
+        flex-wrap: wrap;
+    }
+    .quienes-somos-img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+  }
+  
